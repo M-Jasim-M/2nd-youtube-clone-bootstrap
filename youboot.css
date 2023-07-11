@@ -1,0 +1,46 @@
+    .jan{
+        
+        border-radius: 30px !important;
+        
+        
+    }
+    
+.nav a{
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    margin: 15px 0px 0px 3px;
+}
+.nav a:hover{background-color: antiquewhite;}
+.row img{
+    margin: 10px 0px 0xp 0px;
+} 
+.col-md-3{
+    margin-top: 10px !important;
+}
+.col-md-2 a{
+    color: black;
+     background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px 0px 3px;
+    word-spacing: 5px;
+    }
+.col-md-2 a:hover{
+    background-color: antiquewhite;
+}
+.col-md-2 img{
+    border-radius: 50px;
+}
+
+@media (max-width:320px) {
+    .col-md-2 img{display: block;}
+    .nav a{
+        display: none;
+        
+    } 
+    .flex-column{
+        display: none !important;
+    }
+    
+    
+}
