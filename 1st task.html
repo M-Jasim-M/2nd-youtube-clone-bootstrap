@@ -1,0 +1,947 @@
+<html>
+<head>
+    <link rel="stylesheet" href="firsttask.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="icon" type="image/png" href="https://brandlogovector.com/wp-content/uploads/2022/02/Eataly-Logo.png" sizes="32x32">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="firsttask.css">
+    <title>Eatly</title>
+    
+    <style>
+        *{
+            margin: 0px;padding: 0px;
+        }
+        .maintop{background-color: #f7f7f9;font-family: 'Rubik', sans-serif;}
+        .main{
+            width:auto;
+            height:590px;
+            background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 69%, rgba(252,248,249,1) 86%, rgba(252,176,69,1) 100%);
+            
+           
+           
+        }
+        .navbar nav ul{display:flex;font-style: none;justify-content: space-between;padding: 30px 150px;}
+        .navbar li{
+           
+            list-style: none;
+            
+            
+        }
+        .logo{
+            display: flex;
+            font-style: none;
+            font-size: 30px;
+            font-weight: 900;
+            color:#F1A91D;
+            padding: 6px 0px 0px 0px;
+        }
+        .mdiv{
+            display: flex;
+            font-style: none;
+            font-size: 20px;
+            color: white;
+        }
+        .mdiv li{
+            margin: 10px 25px;
+        }
+        .sign{
+            display: flex;font-style: none;
+            font-size: 19px;
+            font-weight: bold;
+            border: 2px solid #C69EBF;
+            border-radius: 8px;
+            background-color: #F1A91D;
+            padding: 6px 12px 5px 12px;
+            
+        }
+        .bold{
+            position: relative;top:20px;left:150px;
+            overflow: hidden;
+            font-weight: bolder;
+            font-size: 70px;
+            color: white;
+            width:500px;
+        }
+        .bc{
+            color:#F1A91D;
+            
+        }
+        .bb{
+            position: relative;top:30px;left:150px;
+            color: white;
+            font-size: 18px;
+            word-spacing: 5px;
+            width:500px;
+        }
+        .pic{
+            position: relative;top:-230px;right:-690px;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+        width:500px;
+        }
+        .button{
+            width: 120px;
+             position: relative;top:-424px;left:151px;
+            background-color: #F1A91D;
+            border-radius: 10PX;
+            border:1px solid #C69EBF;  
+            font-weight: 200;
+            font-size: 17px;
+            padding: 13px 10px 13px 20px;
+        }
+        .circle{
+             position: relative;top:-470px;left:358px;
+            height:40px;
+            width: 43px;
+            background-color:#fff5fd;
+            border-radius: 50px;
+            border:1px solid #C69EBF;
+            padding: 0px;
+        }
+        .wat{
+             position: relative;top:-500px;left:426px;
+            color:white;
+            width: 120px;
+        }
+        
+        .and{
+                display: flex;
+            width: auto;
+            height: 100px;
+             background: rgb(195,229,236);
+background: linear-gradient(90deg, rgba(221, 141, 141) 16%, rgba(107,27,191,1) 28%, rgba(126,38,234,1) 71%, rgba(221, 141, 141) 78%);
+            
+        }
+        .em:after{content: "ecologics";color: purple;font-size: 13px;
+            letter-spacing:0px;margin:0px 0px 0px 30px; color: mediumpurple;}
+        .em{
+             color: mediumpurple;
+            position: relative;top:20px;left:170px;
+            font-size: 27px;
+            letter-spacing:3px;
+          
+        }
+        .herb{
+           position: relative;top:39px;left:260px;
+            font-size: 23px;
+            color:purple;
+        }
+        .heading{
+           display: flex;
+        }
+        .empty{
+             position: relative;top:20px;left:150px;
+             width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: purple;
+        }
+        .head{
+             position: relative;top:32px;left:170px;
+            font-weight: bold;
+            font-size: 22px;
+            color:purple;
+        }
+        .ma2{
+            width: 1036px;
+            border:10px solid grey;
+            margin: auto;
+            height: 200px;
+            background-color: mediumpurple;
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+           
+        }
+        .ma3{
+            
+            padding:30px;
+            display: block;
+            text-align: center;
+            
+        }
+        .icon{
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 15px;
+            background-color: purple;
+            margin:0px 0px 20px 42px;
+        }
+        .had{
+            color:aliceblue;
+            font-weight: bold;
+            margin:0px 0px 15px 0px;
+            
+        }
+        .par{
+            color:aliceblue;
+            font-size: 14px;
+        }
+        .mad{
+             position: relative;top:-73px;left:2px;
+            background-color: goldenrod;
+            border: 1px solid purple;
+            border-top-right-radius: 40px;
+            border-top-left-radius: 40px;
+            width: 256px;
+            height: 271px;
+        }
+            .ic{
+        width: 40px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 15px;
+            background-color: purple;
+            margin:30px 0px 30px 100px;
+        }
+        .h1d{ 
+        color: #3c2b00;
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
+        }
+        .p1r{
+            color: #3c2b00;
+    font-size: 14px;
+        }
+        .lm{
+            margin:30px;
+            font-size:15px;
+            color: #3c2b00;
+
+        }
+        .m1{
+            width:auto;
+            height:600px;
+            background-color: #f7f7f9;
+overflow:hidden;
+        }
+        .mm2{
+                float: right;    
+        }
+        .ch{
+            
+        }
+        .icon2{
+            position: relative;
+    top: 20px;
+    left: 8px;
+            padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .he{
+            position: relative;
+    top: -18px;
+    left: 81px;
+            color:purple;
+            
+            width: 500px;
+    font-weight: bolder;
+    font-size: 26px;
+        }
+        .per{
+            margin: 10px 0px 0px 10px;
+            font-size: 17px;
+            color:purple;
+        }
+        .icone{
+            position: relative;
+    top: 9px;
+    left: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        } 
+        .headi{
+            position: relative;
+    top: 32px;
+    left: 10px;
+            width: 500px;
+    font-weight: bold;
+    font-size: 20px;
+            color:purple;
+        }
+        .peri{
+            position: relative;
+    top: 18px;
+    left: 0px;
+            margin: 29px 0px 0px 10px;
+            font-size: 16px;
+            color:purple;
+        }
+        .ice{
+            position: relative;
+    top: -129px;
+    left: 221px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: goldenrod;
+        }
+        .heai{
+           margin: 20px 0px 0px 10px;position: relative;
+    top: -127px;
+    left: 208px;
+            font-weight: bold;
+            font-size: 20px;
+            color: purple;
+            
+        }
+        .perere{
+             margin: 15px 0px 0px 10px;position: relative;
+    top: -127px;
+    left: 208px;
+            font-size: 16px;
+            color: purple;
+            font-size: 16px;
+        }
+        
+        .igh{
+            position: relative;
+    top: -94px;
+    left: 11px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .ts{
+            position: relative;
+            color:purple;
+    top: -73px;
+    left: 10px;
+    
+    width: 500px;
+    font-weight: bold;
+    font-size: 20px;
+        }
+        .gh{
+             margin: 20px 0px 0px 10px;position: relative;
+    top: -76px;
+    left: 2px;
+            font-size: 16px;
+            color: purple;
+            font-size: 16px;
+        }
+        
+        .emti{
+            position: relative;
+    top: -223px;
+    left: 221px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .ye{
+            margin: 20px 0px 0px 10px;position: relative;
+    top: -223px;
+    left: 208px;
+            
+            font-size: 20px;
+            color: purple;
+            font-weight: bold;
+            
+        }
+        .daye{
+             margin: 20px 0px 0px 10px;position: relative;
+    top: -219px;
+    left: 208px;
+            font-size: 16px;
+            color: purple;
+            font-size: 16px;
+        }
+        .mas{
+            position: relative;
+    top: 20px;
+    left: 152px;
+        }
+        
+        
+        /*this is for mid area */
+        .madf{
+             width: 1036px;
+            border:10px solid grey;
+            margin: auto;
+            height: 300px;
+            background-color: mediumpurple;
+            border-radius: 25px;
+            text-align: center;
+        }
+        .ico{
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 15px;
+            background-color: purple;
+            margin:auto;
+            margin-top: 40px;
+        }
+        .hea{
+            font-weight: bold;
+            font-size: 25px;
+            color: white;
+            margin:15px 0px 10px 0px;
+        }
+        .colo{
+            color:#F1A91D;
+        }
+        .pe34{
+            color:white;
+        }
+        .but{
+            width:110px;
+            margin: auto;
+            margin-top:45px;
+            padding: 10px 0px 10px 0px;
+        background-color: #F1A91D;
+            border-radius: 10px;
+            border:2px solid purple;
+        }
+       
+        /*last area*/
+        .jas{
+            position: relative;
+    top: 20px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .im{
+            position: relative;
+    top: -18px;
+    left: 224px;
+            color:mediumpurple;
+            width: 500px;
+    font-weight: bold;
+    font-size: 27px;
+        }
+        
+        /* now design this one*/
+        
+        .head4{overflow: hidden;    height: 430;}
+        .belle{
+            color: purple;
+            font-size: 18;
+            margin:10px 0px 0px 150px;
+             }
+        .emp1{
+            position: relative;
+    top: 20px;
+    left: 164px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .he1{
+            position: relative;
+    top: -18px;
+    left: 232px;
+    font-weight: bold;
+            color:purple;
+    font-size: 18px;
+        }
+        .stright{
+             position: relative;
+    top: -65px;
+    left: 479px;
+    width: 5px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        /* this is the remaining 3*/
+        
+        .emp2{
+             position: relative;
+    top: -16px;
+    left: 164px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: goldenrod;
+        }
+        .he2{
+             position: relative;
+    top: -53px;
+    left: 232px;
+    font-weight: bold;
+            color:purple;
+    font-size: 18px;
+        }
+        
+        .emp3{
+            position: relative;
+    top: 14px;
+    left: 164px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .he3{
+            position: relative;
+    top: -21px;
+    left: 232px;
+    font-weight: bold;
+            color:purple;
+    font-size: 18px;
+        }
+        .emp4{
+            position: relative;
+    top: 39px;
+    left: 164px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .he4{
+            position: relative;
+    top: 4px;
+    left: 232px;
+    font-weight: bold;
+            color:purple;
+    font-size: 18px;
+        }
+        /* pictures sections*/
+        .imge1{
+            float: right;
+            
+            
+        }
+        .ine1{
+            position: relative;
+    top: -332px;
+    left: -510px;
+        }
+        .hab1{
+            position: relative;
+    top: -309px;
+    left: -456px;
+            font-size: 17px;
+            color: purple;
+        }
+        .b1{
+             position: relative;
+    top: -266px;
+    left: -441px;
+    : -425px;
+    padding: 10px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: gold;
+        }
+        .imge2{
+            float: right;
+        }
+        .ine2{
+            position: relative;
+    top: -332px;
+    left: 70px;
+        }
+        .hab2{
+            position: relative;
+    top: -308px;
+    left: 124px;
+            font-size: 17px;
+            color:purple;
+        }
+        .b2{
+            position: relative;
+    top: -256px;
+    left: 164px;
+            color:purple;
+        }
+      /* work at home in the night*/
+        .main32{height: 480px;
+            background-color: #f7f7f9;overflow: hidden;}
+        .mere1{
+            float: right;
+        }
+        .empy1{
+            position: relative;
+    top: 39px;
+    left: -215px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .hedi1{
+            position: relative;
+    top: 0px;
+    left: -132px;
+    font-weight: bold;
+    color: purple;
+    font-size: 26px;
+        }
+        .abc{
+            color: purple;
+    font-size: 16px;
+    position: relative;
+    top: 28px;
+    left: -215px;
+        }
+        .empy2{
+           position: relative;
+    top: 25px;
+    left: -215px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+        }
+        .abc2{
+            color: purple;
+    font-size: 15;
+    position: relative;
+    top: 39px;
+    left: -213px;
+            text-transform: justify;
+        }
+        .hedi2{
+            position: relative;
+    top: 53px;
+    left: -213px;
+    color: purple;
+    font-size: 18px;
+            font-weight: bold;
+            
+        }
+        .abc3{
+           color: purple;
+    font-size: 17px;
+    position: relative;
+    top: 61px;
+    left: -215px;
+        }
+        .imag32{
+            position: relative;
+    top: 20px;
+    left: 164px;
+}
+/* this is footer */
+        
+        .footer{
+            overflow: hidden;
+        
+        }
+        .he45{
+           position: relative;
+    top: 58px;
+    left: 160px;
+    color: mediumpurple;
+    width: 500px;
+    font-weight: bold;
+    font-size: 27px;
+        }
+        .pa45{
+            position: relative;
+    top: 82px;
+    left: 160px;
+    color: mediumpurple;
+    width: 500px;
+    
+        }
+        .table {
+            position: relative;
+    top: -40px;
+    left: 543px;
+    width: 600px;
+    height: 150px;
+    
+        }
+        table{text-align: left;color: purple;}
+        table tr th{
+            padding: 0px 108px 15px 0px ;
+        }
+        table tr td{padding-top:10px;font-size: 15px;}
+        .copy{
+            position: relative;
+    top: 14px;
+    left: 160px;
+    color: purple;
+        }
+        .term{
+           position: relative;
+    top: -2px;
+    left: 868px;
+    color: purple;
+        }
+        .priv{
+             position: relative;
+    top: -20px;
+    left: 1056px;
+    color: purple;
+        }
+        
+        
+        
+    </style>
+    </head>
+<body>
+    <div class="maintop">
+    <div class="main">
+    
+<div class="navbar">
+    <nav><ul>
+        <div class="logo">
+    
+        <li> Eatly</li>  </div>
+        
+        <div class="mdiv">
+            <li>Programs</li>
+            <li>Services</li>
+            <li>News</li>
+            <li>About Us</li>
+            
+            </div>
+            <div class="sign">
+            <li>Let's Talk</li>
+            </div>
+
+       
+        
+        </ul>
+    
+    </nav>
+    
+    </div>
+        <div class="bold">
+            <p>Changing <br>your <span class="bc">eating</span> <br>habits
+            </p>
+        </div>
+        <div class="bb">
+        <p>Always take care of your health starting from <br>the food menu that you consume everyday</p>
+        </div>
+        <div class="pic">
+        <img src="https://thumbs.dreamstime.com/z/little-girl-holding-two-apples-isolated-white-background-50066475.jpg" width="505px" height="500px">
+        </div>
+        <div class="button">
+        <p>Explore Menu</p>
+        </div>
+        <div class="circle"></div>
+        <div class="wat">Watch Video</div>
+    </div>
+    <div class="and">
+    <div class="em">
+        <P>emerson</P>
+        </div>
+        
+        <div class="herb">
+        <p>HERBLIFE</p>
+        </div>
+         </div>
+    <br><br>
+    <div class="heading">
+    <div class="empty"></div>
+        <div class="head">Our Best Programs</div>
+    </div>
+    <br><br><br><br><br>
+    <div class="ma2">
+    <div class="ma3">
+        <div class="icon"></div>
+        <div class="had">Healthy Recipe</div>
+        <div class="par">Healthier Recipes,from<br>food &amp; nutrition experts </div>
+        </div>
+    
+    <div class="ma3">
+        <div class="icon"></div>
+        <div class="had">Healthy Meals </div>
+        <div class="par">Learn hoe to become a <br> meal-planing pro</div>
+        </div>
+    
+    
+    <div class="mad">
+        <div class="ic"></div>
+        <div class="h1d">Healthy Eating</div>
+        <div class="p1r">Eat healthy with our<br>experts &amp; insperation tips</div>
+        <div class="lm">Learn More</div>
+        </div>
+    
+        
+        <div class="ma3">
+        <div class="icon"></div>
+        <div class="had">Healthy Lifes</div>
+        <div class="par">Your life is your choice,<br>make yourself healthier</div>
+        </div>
+    
+    </div>
+    <br><br>
+    <br><br><br>
+    <div class="m1">
+    <div class="mm2">
+        <div class="ch">
+        <div class="icon2"></div>
+            <div class="he">Our Value To Help You</div>
+        <div class="per">We always want to provide the best value for you<br>
+            and your health,join us to maxamize the benefits</div>
+        </div>
+        
+        <br>
+        <br>
+        <div class="heart">
+        <div class="icone"></div>
+        <div class="headi">Become Healthier</div>
+        <div class="peri">Immune will sronger if<br>the body is healthier</div>
+        </div>
+        
+        <div class="par">
+        <div class="ice"></div>
+            <div class="heai">Increase Energy</div>
+            <div class="perere">Have enough energy can<br>help carry out a routine</div>
+        </div>
+        
+        <div class="ni">
+        <div class="igh"></div>
+            <div class="ts">Controling Weight</div>
+        <div class="gh">Body will feel lighter and<br>will not be easily tired</div>
+        </div>
+        
+        <div class="dai">
+            <div class="emti"></div>
+            <div class="ye">Becomes Happier</div>
+            <div class="daye">Living a healthy life also<br>increase self-confidence</div>
+        </div>
+        </div>
+         <div class="mas">
+        <img src="https://thumbs.dreamstime.com/z/little-girl-holding-two-apples-isolated-white-background-50066475.jpg" width="505px" height="500px">
+        </div>
+        
+        </div>
+   
+    
+    <br><br>
+    <br><br>
+    
+    <div class="madf">
+    <div class="ico"></div>
+    <div class="hea">Get Started With <span class="colo">Eatly</span></div>
+        <div class="pe34">Discover tips &amp; news for your health from experts<br>
+        and get the best discount by getting starting</div>
+        <div class="but">Get started</div>
+</div>
+    <br><br>
+    <br><br>
+    
+    <div class="jas"></div>
+    <div class="im">Try Our Healthy Menu</div>
+    <div class="belle">We provide a varient of healthy recipes that have<br>
+    been curated by our best nutritionsts for you</div>
+    <br><br>
+    <div class="head4">
+    <div class="emp1"></div>
+    <div class="he1">Breakfast Recipes</div>
+        <div class="stright"></div>
+    
+        <div class="emp2"></div>
+        <div class="he2">Low-Clorie Recipes</div>
+        
+        <div class="emp3"></div>
+        <div class="he3">Holiday Recipes</div>
+        
+        <div class="emp4"></div>
+        <div class="he4">Restriction Recipes</div>
+        
+        <div class="imge1">
+        <div class="ine1">
+             <img src="https://thumbs.dreamstime.com/z/little-girl-holding-two-apples-isolated-white-background-50066475.jpg" width="225px" height="210px">
+            </div>
+        <div class="hab1">Red Onion With<br>Chopped Cabbage</div>
+            <div class="b1">Try now</div>
+        </div>
+        
+        <div class="imge2">
+        <div class="ine2">
+             <img src="https://thumbs.dreamstime.com/z/little-girl-holding-two-apples-isolated-white-background-50066475.jpg" width="225px" height="210px">
+            </div>
+        <div class="hab2">Low Fat Apple Cake<br> With White Cream</div>
+            <div class="b2">Try now</div>
+        </div>   
+    </div><br><br>
+    
+    <div class="main32">
+    <div class="mere1">
+    <div class="empy1"></div>
+    <div class="hedi1">Testimonials About Us</div>
+    <div class="abc">In the smallest case we always give your best. find<br>Out what other users have to say about us</div>
+        <br><br>
+        <div class="empy2"></div>
+        <div class="abc2">Eatly really help me to mainain food intakeid perfect for <br>those of you who who want to diet or just make the body more <br> healthy in addition eatly helped me to create a menue that<br> is suitable for the family</div>
+        
+        <div class="hedi2">Rara Sanchez</div>
+        <div class="abc3">feelancer</div>
+    </div>
+        <div class="imag32">
+        <img src="https://thumbs.dreamstime.com/z/little-girl-holding-two-apples-isolated-white-background-50066475.jpg" width="430px" height="420px">
+        </div>
+</div>
+    <div class="footer">
+    <div class="he45">Eatly</div>
+        <div class="pa45">We have a mission to<br>make people arround the<br>world better through a<br>healthier diet</div>
+        
+        <div class="table">
+        <table>
+            <tr>
+            <th>About</th>
+            <th>Movments</th>
+                <th>Company</th>
+            <th>Support</th>
+            </tr>
+            
+            <tr>
+            <td>About us</td>
+            <td>What Eatly</td>
+            <td>Why Eatly</td>
+            <td>FAQs</td>
+            </tr>
+            
+            <tr>
+            <td>Features</td>
+            <td>Support Us</td>
+            <td>Capital</td>
+            <td>Support Center</td>
+            </tr>
+            
+            <tr>
+            <td>News &amp; Blog</td>
+            <td></td>
+            <td>Security</td>
+            <td>Contact us</td>
+            </tr>
+        
+        </table>
+        
+        </div>
+    
+    <div class="copy">&copy;2021 Eatly, all right reserved</div>
+    <div class="term">Term &amp; Agreements</div>
+        <div class="priv">Privacy Policy</div>
+    
+    
+    </div>
+    
+    
+    
+    <br><br><br><br>
+    <br><br>
+    </div>
+    </body>
+
+</html>
